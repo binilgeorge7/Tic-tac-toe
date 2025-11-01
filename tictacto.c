@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include<stdlib.h>
 
 // Function to print the tic tac toe board with emojis
 void print_table(char (*mat)[3])
 {
+    system("clear");
     printf("-------------------------\n");
     for (int i = 0; i < 3; i++)
     {
